@@ -1,1 +1,22 @@
 chest_xray/
+.keras
+chest-xray-pneumonia/
+# Modelos treinados
+*.keras
+*.h5
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Checkpoints
+checkpoint-*/
+**/checkpoint-*/
+
+# Dados grandes
+*.csv
+data/data.csv
+
+# Outros arquivos grandes
+*.png
