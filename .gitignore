@@ -10,8 +10,7 @@ chest-xray-pneumonia/
 natural_language_processing/rag/final_project/processed_data/embeddings.npy
 natural_language_processing/rag/final_project/processed_data/classificador_setfit/
 natural_language_processing/rag/final_project/processed_data/*.png
-natural_language_processing/rag/final_project/data/*.html
-natural_language_processing/rag/final_project/data/*.htm
+
 
 # ============================================
 # MODELOS E PESOS (GERAL)
