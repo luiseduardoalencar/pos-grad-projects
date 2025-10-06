@@ -1,9 +1,0 @@
-{
-  "normalize_embeddings": false,
-  "labels": [
-    "rag_required",
-    "general_conversation",
-    "calculation",
-    "out_of_scope"
-  ]
-}
