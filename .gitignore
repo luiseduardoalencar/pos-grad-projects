@@ -20,3 +20,44 @@ data/data.csv
 
 # Outros arquivos grandes
 *.png
+
+# Arquivos grandes gerados automaticamente
+processed_data/embeddings.npy
+processed_data/classificador_setfit/
+processed_data/*.png
+
+# Dados brutos (HTMLs grandes)
+data/*.html
+
+# Checkpoints do Jupyter
+processed_data/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ambientes virtuais
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outros
+*.log
+.ipynb_checkpoints
