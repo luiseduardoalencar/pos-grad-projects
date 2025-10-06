@@ -1,0 +1,11 @@
+{
+  "metodo": "Regras",
+  "modelo": "Rule-based",
+  "categorias": [
+    "rag_required",
+    "general_conversation",
+    "calculation",
+    "out_of_scope"
+  ],
+  "acuracia_amostra": 80.0
+}

@@ -1,0 +1,602 @@
+[
+  {
+    "query": "O que diz a CLT sobre férias?",
+    "categoria": "rag_required",
+    "especialidade": "trabalhista",
+    "id": 1
+  },
+  {
+    "query": "O que diz o CDC sobre publicidade enganosa?",
+    "categoria": "rag_required",
+    "especialidade": "consumidor",
+    "id": 2
+  },
+  {
+    "query": "Como funciona a venda no Código Civil?",
+    "categoria": "rag_required",
+    "especialidade": "civil",
+    "id": 3
+  },
+  {
+    "query": "O que diz a CLT sobre FGTS?",
+    "categoria": "rag_required",
+    "especialidade": "trabalhista",
+    "id": 4
+  },
+  {
+    "query": "Qual o prazo para desistir de compra online?",
+    "categoria": "calculation",
+    "especialidade": "consumidor",
+    "id": 5
+  },
+  {
+    "query": "Como funciona a cobrança de dívidas no CDC?",
+    "categoria": "rag_required",
+    "especialidade": "consumidor",
+    "id": 6
+  },
+  {
+    "query": "Qual time vai ganhar o campeonato?",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 7
+  },
+  {
+    "query": "Boa noite",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 8
+  },
+  {
+    "query": "Como tocar violão?",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 9
+  },
+  {
+    "query": "Como funciona a fotossíntese?",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 10
+  },
+  {
+    "query": "O que diz a CLT sobre 13º salário?",
+    "categoria": "rag_required",
+    "especialidade": "trabalhista",
+    "id": 11
+  },
+  {
+    "query": "Quais são os direitos reais no Código Civil?",
+    "categoria": "rag_required",
+    "especialidade": "civil",
+    "id": 12
+  },
+  {
+    "query": "Me conte uma piada",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 13
+  },
+  {
+    "query": "Calcule minhas horas extras",
+    "categoria": "calculation",
+    "especialidade": "trabalhista",
+    "id": 14
+  },
+  {
+    "query": "O que diz o Código Civil sobre contratos?",
+    "categoria": "rag_required",
+    "especialidade": "civil",
+    "id": 15
+  },
+  {
+    "query": "Qual o melhor restaurante da cidade?",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 16
+  },
+  {
+    "query": "Quanto vou receber de 13º trabalhando 5 meses?",
+    "categoria": "calculation",
+    "especialidade": "trabalhista",
+    "id": 17
+  },
+  {
+    "query": "Calcule o período de experiência",
+    "categoria": "calculation",
+    "especialidade": "trabalhista",
+    "id": 18
+  },
+  {
+    "query": "Calcule o adicional de insalubridade",
+    "categoria": "calculation",
+    "especialidade": "trabalhista",
+    "id": 19
+  },
+  {
+    "query": "Quais são os tipos de demissão na CLT?",
+    "categoria": "rag_required",
+    "especialidade": "trabalhista",
+    "id": 20
+  },
+  {
+    "query": "Qual o prazo de prescrição de uma dívida de 2020?",
+    "categoria": "calculation",
+    "especialidade": "civil",
+    "id": 21
+  },
+  {
+    "query": "Quanto ganho de adicional noturno?",
+    "categoria": "calculation",
+    "especialidade": "trabalhista",
+    "id": 22
+  },
+  {
+    "query": "Me explique física quântica",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 23
+  },
+  {
+    "query": "Olá, tudo bem?",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 24
+  },
+  {
+    "query": "Oi, como você está?",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 25
+  },
+  {
+    "query": "Calcule meu salário proporcional",
+    "categoria": "calculation",
+    "especialidade": "trabalhista",
+    "id": 26
+  },
+  {
+    "query": "Como funciona a garantia legal de produtos?",
+    "categoria": "rag_required",
+    "especialidade": "consumidor",
+    "id": 27
+  },
+  {
+    "query": "Calcule minhas férias de 8 meses trabalhados",
+    "categoria": "calculation",
+    "especialidade": "trabalhista",
+    "id": 28
+  },
+  {
+    "query": "Quantos anos de prescrição para ação trabalhista?",
+    "categoria": "calculation",
+    "especialidade": "trabalhista",
+    "id": 29
+  },
+  {
+    "query": "Calcule correção monetária de dívida",
+    "categoria": "calculation",
+    "especialidade": "civil",
+    "id": 30
+  },
+  {
+    "query": "Qual a receita de bolo de chocolate?",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 31
+  },
+  {
+    "query": "Pode me ajudar?",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 32
+  },
+  {
+    "query": "Me explique o artigo 5º da Constituição",
+    "categoria": "rag_required",
+    "especialidade": "consumidor",
+    "id": 33
+  },
+  {
+    "query": "Quais são os direitos do trabalhador em caso de demissão sem justa causa?",
+    "categoria": "rag_required",
+    "especialidade": "trabalhista",
+    "id": 34
+  },
+  {
+    "query": "Calcule os dias de férias proporcionais",
+    "categoria": "calculation",
+    "especialidade": "trabalhista",
+    "id": 35
+  },
+  {
+    "query": "Me ensine a nadar",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 36
+  },
+  {
+    "query": "O que é considerado trabalho noturno?",
+    "categoria": "rag_required",
+    "especialidade": "trabalhista",
+    "id": 37
+  },
+  {
+    "query": "Valeu!",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 38
+  },
+  {
+    "query": "Preciso de ajuda",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 39
+  },
+  {
+    "query": "Boa tarde",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 40
+  },
+  {
+    "query": "Até logo",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 41
+  },
+  {
+    "query": "Quais são suas funcionalidades?",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 42
+  },
+  {
+    "query": "O que diz o CDC sobre oferta de produtos?",
+    "categoria": "rag_required",
+    "especialidade": "consumidor",
+    "id": 43
+  },
+  {
+    "query": "Me ensine a dirigir",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 44
+  },
+  {
+    "query": "Quanto tempo tenho para reclamar de produto com vício?",
+    "categoria": "calculation",
+    "especialidade": "consumidor",
+    "id": 45
+  },
+  {
+    "query": "Como você funciona?",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 46
+  },
+  {
+    "query": "Muito obrigado",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 47
+  },
+  {
+    "query": "O que diz o artigo 18 do CDC sobre produtos com defeito?",
+    "categoria": "rag_required",
+    "especialidade": "consumidor",
+    "id": 48
+  },
+  {
+    "query": "Como funciona blockchain?",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 49
+  },
+  {
+    "query": "Quem criou você?",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 50
+  },
+  {
+    "query": "Quanto tempo para contestar cobrança?",
+    "categoria": "calculation",
+    "especialidade": "consumidor",
+    "id": 51
+  },
+  {
+    "query": "Qual o prazo para troca de produto com defeito?",
+    "categoria": "calculation",
+    "especialidade": "consumidor",
+    "id": 52
+  },
+  {
+    "query": "Ok, entendi",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 53
+  },
+  {
+    "query": "Qual a melhor dieta para emagrecer?",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 54
+  },
+  {
+    "query": "Me recomende um filme",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 55
+  },
+  {
+    "query": "Me ensine matemática",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 56
+  },
+  {
+    "query": "Tudo certo",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 57
+  },
+  {
+    "query": "Você me ajuda com dúvidas jurídicas?",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 58
+  },
+  {
+    "query": "Quanto devo receber de rescisão?",
+    "categoria": "calculation",
+    "especialidade": "trabalhista",
+    "id": 59
+  },
+  {
+    "query": "Como funciona a prescrição no direito civil?",
+    "categoria": "rag_required",
+    "especialidade": "civil",
+    "id": 60
+  },
+  {
+    "query": "Entendi, obrigado",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 61
+  },
+  {
+    "query": "Como fazer pão caseiro?",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 62
+  },
+  {
+    "query": "O que é dano moral no Código Civil?",
+    "categoria": "rag_required",
+    "especialidade": "civil",
+    "id": 63
+  },
+  {
+    "query": "Quais são os direitos básicos do consumidor segundo o CDC?",
+    "categoria": "rag_required",
+    "especialidade": "consumidor",
+    "id": 64
+  },
+  {
+    "query": "Qual o prazo para recorrer de decisão?",
+    "categoria": "calculation",
+    "especialidade": null,
+    "id": 65
+  },
+  {
+    "query": "Tchau",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 66
+  },
+  {
+    "query": "Você é um robô?",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 67
+  },
+  {
+    "query": "Qual a capital da França?",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 68
+  },
+  {
+    "query": "Qual a carga horária máxima de trabalho permitida?",
+    "categoria": "rag_required",
+    "especialidade": "trabalhista",
+    "id": 69
+  },
+  {
+    "query": "Qual é o seu nome?",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 70
+  },
+  {
+    "query": "Calcule a multa por atraso de pagamento",
+    "categoria": "calculation",
+    "especialidade": "civil",
+    "id": 71
+  },
+  {
+    "query": "O que você pode fazer?",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 72
+  },
+  {
+    "query": "O que é recall segundo o CDC?",
+    "categoria": "rag_required",
+    "especialidade": "consumidor",
+    "id": 73
+  },
+  {
+    "query": "Calcule meu aviso prévio de 2 anos",
+    "categoria": "calculation",
+    "especialidade": "trabalhista",
+    "id": 74
+  },
+  {
+    "query": "Quanto tempo de garantia tem um celular?",
+    "categoria": "calculation",
+    "especialidade": "consumidor",
+    "id": 75
+  },
+  {
+    "query": "Como plantar tomate?",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 76
+  },
+  {
+    "query": "Me explique história do Brasil",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 77
+  },
+  {
+    "query": "Como fazer exercícios físicos?",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 78
+  },
+  {
+    "query": "Como funciona a bolsa de valores?",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 79
+  },
+  {
+    "query": "Quanto tempo para prescrever dívida?",
+    "categoria": "calculation",
+    "especialidade": "civil",
+    "id": 80
+  },
+  {
+    "query": "O que são práticas abusivas segundo o CDC?",
+    "categoria": "rag_required",
+    "especialidade": "consumidor",
+    "id": 81
+  },
+  {
+    "query": "Me ensine inglês",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 82
+  },
+  {
+    "query": "Como posso te usar?",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 83
+  },
+  {
+    "query": "Qual o melhor celular para comprar?",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 84
+  },
+  {
+    "query": "Previsão do tempo para amanhã",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 85
+  },
+  {
+    "query": "Qual a melhor marca de carro?",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 86
+  },
+  {
+    "query": "Calcule os juros de mora de um contrato",
+    "categoria": "calculation",
+    "especialidade": "civil",
+    "id": 87
+  },
+  {
+    "query": "Bom dia",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 88
+  },
+  {
+    "query": "Como funciona o aviso prévio segundo a CLT?",
+    "categoria": "rag_required",
+    "especialidade": "trabalhista",
+    "id": 89
+  },
+  {
+    "query": "Qual o valor da multa do FGTS?",
+    "categoria": "calculation",
+    "especialidade": "trabalhista",
+    "id": 90
+  },
+  {
+    "query": "O que é responsabilidade civil?",
+    "categoria": "rag_required",
+    "especialidade": "civil",
+    "id": 91
+  },
+  {
+    "query": "Obrigado pela ajuda!",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 92
+  },
+  {
+    "query": "Legal!",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 93
+  },
+  {
+    "query": "Estou com uma dúvida",
+    "categoria": "general_conversation",
+    "especialidade": null,
+    "id": 94
+  },
+  {
+    "query": "Qual o resultado do jogo de ontem?",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 95
+  },
+  {
+    "query": "Qual prazo para reclamar de serviço?",
+    "categoria": "calculation",
+    "especialidade": "consumidor",
+    "id": 96
+  },
+  {
+    "query": "Quais são as sanções administrativas do CDC?",
+    "categoria": "rag_required",
+    "especialidade": "consumidor",
+    "id": 97
+  },
+  {
+    "query": "O que diz o CC sobre obrigações?",
+    "categoria": "rag_required",
+    "especialidade": "civil",
+    "id": 98
+  },
+  {
+    "query": "Como instalar Windows?",
+    "categoria": "out_of_scope",
+    "especialidade": null,
+    "id": 99
+  },
+  {
+    "query": "Calcule 30 dias de aviso prévio",
+    "categoria": "calculation",
+    "especialidade": "trabalhista",
+    "id": 100
+  }
+]

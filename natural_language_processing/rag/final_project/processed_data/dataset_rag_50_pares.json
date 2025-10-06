@@ -1,0 +1,352 @@
+[
+  {
+    "pergunta": "O que é considerado consumidor segundo o CDC?",
+    "resposta_referencia": "Consumidor é toda pessoa física ou jurídica que adquire ou utiliza produto ou serviço como destinatário final, incluindo coletividades de pessoas indetermináveis que intervêm nas relações de consumo.",
+    "fonte": "CDC - Art. 2º",
+    "especialidade": "Direito do Consumidor",
+    "id": 1
+  },
+  {
+    "pergunta": "O que é fornecedor segundo o CDC?",
+    "resposta_referencia": "Fornecedor é toda pessoa física ou jurídica, pública ou privada, nacional ou estrangeira, que desenvolve atividade de produção, distribuição ou comercialização de produtos ou prestação de serviços.",
+    "fonte": "CDC - Art. 3º",
+    "especialidade": "Direito do Consumidor",
+    "id": 2
+  },
+  {
+    "pergunta": "Quais são os direitos básicos do consumidor?",
+    "resposta_referencia": "Os direitos básicos incluem proteção à vida, saúde e segurança, educação sobre consumo, informação adequada, proteção contra publicidade enganosa, modificação de cláusulas abusivas, reparação de danos e acesso aos órgãos judiciários.",
+    "fonte": "CDC - Art. 6º",
+    "especialidade": "Direito do Consumidor",
+    "id": 3
+  },
+  {
+    "pergunta": "O que diz o CDC sobre produtos com vícios?",
+    "resposta_referencia": "Fornecedores respondem solidariamente por vícios que tornem produtos impróprios ao consumo. O consumidor pode exigir substituição, restituição do valor ou abatimento proporcional se o vício não for sanado em 30 dias.",
+    "fonte": "CDC - Art. 18",
+    "especialidade": "Direito do Consumidor",
+    "id": 4
+  },
+  {
+    "pergunta": "O que é publicidade enganosa segundo o CDC?",
+    "resposta_referencia": "Publicidade enganosa é qualquer informação publicitária inteira ou parcialmente falsa, ou que por omissão seja capaz de induzir em erro o consumidor sobre natureza, características, qualidade, quantidade ou preço de produtos e serviços.",
+    "fonte": "CDC - Art. 37",
+    "especialidade": "Direito do Consumidor",
+    "id": 5
+  },
+  {
+    "pergunta": "Qual o prazo para reclamar de produto com vício?",
+    "resposta_referencia": "O prazo é de 30 dias para produtos não duráveis e 90 dias para produtos duráveis, contados da entrega efetiva do produto.",
+    "fonte": "CDC - Art. 26",
+    "especialidade": "Direito do Consumidor",
+    "id": 6
+  },
+  {
+    "pergunta": "O consumidor pode desistir de compra feita pela internet?",
+    "resposta_referencia": "Sim, o consumidor pode desistir em até 7 dias a contar do recebimento do produto em compras realizadas fora do estabelecimento comercial, com devolução imediata dos valores pagos.",
+    "fonte": "CDC - Art. 49",
+    "especialidade": "Direito do Consumidor",
+    "id": 7
+  },
+  {
+    "pergunta": "O que são práticas abusivas segundo o CDC?",
+    "resposta_referencia": "Práticas abusivas incluem condicionar fornecimento, recusar atendimento, enviar produtos sem solicitação, prevalecer-se da ignorância do consumidor, exigir vantagem excessiva e elevar preços sem justa causa.",
+    "fonte": "CDC - Art. 39",
+    "especialidade": "Direito do Consumidor",
+    "id": 8
+  },
+  {
+    "pergunta": "Como funciona a cobrança de dívidas no CDC?",
+    "resposta_referencia": "Na cobrança de débitos, o consumidor não será exposto a ridículo nem submetido a constrangimento ou ameaça. Cobrado indevidamente, tem direito à repetição do dobro do valor pago em excesso.",
+    "fonte": "CDC - Art. 42",
+    "especialidade": "Direito do Consumidor",
+    "id": 9
+  },
+  {
+    "pergunta": "O que é recall de produtos?",
+    "resposta_referencia": "Recall é o chamamento público para que consumidores retornem produtos que apresentam periculosidade descoberta após colocação no mercado, devendo ser comunicado imediatamente às autoridades e consumidores.",
+    "fonte": "CDC - Art. 10, §1º",
+    "especialidade": "Direito do Consumidor",
+    "id": 10
+  },
+  {
+    "pergunta": "Quais são as sanções administrativas do CDC?",
+    "resposta_referencia": "As sanções incluem multa, apreensão e inutilização do produto, cassação de registro, proibição de fabricação, suspensão de fornecimento, interdição de estabelecimento e imposição de contrapropaganda.",
+    "fonte": "CDC - Art. 56",
+    "especialidade": "Direito do Consumidor",
+    "id": 11
+  },
+  {
+    "pergunta": "O que são cláusulas abusivas em contratos?",
+    "resposta_referencia": "São cláusulas que impossibilitem ou atenuem responsabilidade do fornecedor, transfiram responsabilidades a terceiros, estabeleçam obrigações iníquas, invertam ônus da prova ou permitam alteração unilateral do contrato.",
+    "fonte": "CDC - Art. 51",
+    "especialidade": "Direito do Consumidor",
+    "id": 12
+  },
+  {
+    "pergunta": "Como funciona a garantia legal de produtos?",
+    "resposta_referencia": "A garantia legal independe de termo expresso e não pode ser excluída contratualmente. A garantia contratual é complementar à legal e deve ser conferida mediante termo escrito.",
+    "fonte": "CDC - Art. 24 e 50",
+    "especialidade": "Direito do Consumidor",
+    "id": 13
+  },
+  {
+    "pergunta": "O que diz o CDC sobre oferta de produtos?",
+    "resposta_referencia": "Toda informação ou publicidade suficientemente precisa obriga o fornecedor e integra o contrato. Se o fornecedor recusar cumprimento, o consumidor pode exigir cumprimento forçado, aceitar equivalente ou rescindir com restituição.",
+    "fonte": "CDC - Art. 30 e 35",
+    "especialidade": "Direito do Consumidor",
+    "id": 14
+  },
+  {
+    "pergunta": "Quem responde por defeitos em produtos?",
+    "resposta_referencia": "Fabricante, produtor, construtor e importador respondem independentemente de culpa por defeitos de projeto, fabricação, montagem ou informações insuficientes que causem danos aos consumidores.",
+    "fonte": "CDC - Art. 12",
+    "especialidade": "Direito do Consumidor",
+    "id": 15
+  },
+  {
+    "pergunta": "O que são férias segundo a CLT?",
+    "resposta_referencia": "Todo empregado tem direito a férias anuais remuneradas de 30 dias após cada período de 12 meses de vigência do contrato de trabalho, sem prejuízo da remuneração.",
+    "fonte": "CLT - Art. 129 e 130",
+    "especialidade": "Direito Trabalhista",
+    "id": 16
+  },
+  {
+    "pergunta": "Como funciona o aviso prévio?",
+    "resposta_referencia": "O aviso prévio é de no mínimo 30 dias, podendo ser trabalhado ou indenizado. A parte que rescindir sem aviso prévio pagará à outra indenização correspondente.",
+    "fonte": "CLT - Art. 487",
+    "especialidade": "Direito Trabalhista",
+    "id": 17
+  },
+  {
+    "pergunta": "Qual a jornada máxima de trabalho?",
+    "resposta_referencia": "A duração normal do trabalho não excederá 8 horas diárias e 44 horas semanais, salvo compensação de horários ou redução de jornada mediante acordo ou convenção coletiva.",
+    "fonte": "CLT - Art. 58",
+    "especialidade": "Direito Trabalhista",
+    "id": 18
+  },
+  {
+    "pergunta": "O que é considerado trabalho noturno?",
+    "resposta_referencia": "Trabalho noturno é aquele executado entre 22 horas de um dia e 5 horas do dia seguinte, sendo remunerado com adicional de no mínimo 20% sobre a hora diurna.",
+    "fonte": "CLT - Art. 73",
+    "especialidade": "Direito Trabalhista",
+    "id": 19
+  },
+  {
+    "pergunta": "Como funciona o 13º salário?",
+    "resposta_referencia": "Todo trabalhador tem direito ao 13º salário anual, pago em duas parcelas: primeira entre fevereiro e novembro, segunda até 20 de dezembro, no valor da remuneração integral.",
+    "fonte": "Lei 4.090/62",
+    "especialidade": "Direito Trabalhista",
+    "id": 20
+  },
+  {
+    "pergunta": "O que é demissão sem justa causa?",
+    "resposta_referencia": "Demissão sem justa causa é a rescisão por iniciativa do empregador sem motivo disciplinar, gerando direito a aviso prévio, férias proporcionais, 13º proporcional, saque do FGTS e multa de 40%.",
+    "fonte": "CLT - Art. 477",
+    "especialidade": "Direito Trabalhista",
+    "id": 21
+  },
+  {
+    "pergunta": "Quais são as hipóteses de justa causa?",
+    "resposta_referencia": "Constituem justa causa: ato de improbidade, incontinência de conduta, negociação habitual, condenação criminal, desídia, embriaguez, violação de segredo, indisciplina, abandono de emprego e atos lesivos à honra.",
+    "fonte": "CLT - Art. 482",
+    "especialidade": "Direito Trabalhista",
+    "id": 22
+  },
+  {
+    "pergunta": "Como funcionam as horas extras?",
+    "resposta_referencia": "A duração do trabalho poderá ser acrescida de horas extras em número não excedente a 2 horas, mediante acordo ou convenção coletiva, com remuneração pelo menos 50% superior à normal.",
+    "fonte": "CLT - Art. 59",
+    "especialidade": "Direito Trabalhista",
+    "id": 23
+  },
+  {
+    "pergunta": "O que é FGTS?",
+    "resposta_referencia": "O Fundo de Garantia por Tempo de Serviço é depósito mensal de 8% da remuneração do trabalhador, sacável em situações específicas como demissão sem justa causa, aposentadoria ou doença grave.",
+    "fonte": "Lei 8.036/90",
+    "especialidade": "Direito Trabalhista",
+    "id": 24
+  },
+  {
+    "pergunta": "Qual o período de experiência permitido?",
+    "resposta_referencia": "O contrato de experiência não poderá exceder 90 dias, podendo ser prorrogado uma única vez, desde que não ultrapasse o prazo máximo.",
+    "fonte": "CLT - Art. 445",
+    "especialidade": "Direito Trabalhista",
+    "id": 25
+  },
+  {
+    "pergunta": "O que é adicional de insalubridade?",
+    "resposta_referencia": "Trabalho em condições insalubres gera direito a adicional de 10%, 20% ou 40% do salário mínimo, conforme grau mínimo, médio ou máximo de insalubridade.",
+    "fonte": "CLT - Art. 192",
+    "especialidade": "Direito Trabalhista",
+    "id": 26
+  },
+  {
+    "pergunta": "Como funciona a licença maternidade?",
+    "resposta_referencia": "A empregada gestante tem direito à licença maternidade de 120 dias, sem prejuízo do emprego e do salário, podendo ser prorrogada por mais 60 dias em empresas do Programa Empresa Cidadã.",
+    "fonte": "CLT - Art. 392",
+    "especialidade": "Direito Trabalhista",
+    "id": 27
+  },
+  {
+    "pergunta": "Qual o prazo para reclamar verbas trabalhistas?",
+    "resposta_referencia": "A ação trabalhista prescreve em 5 anos para trabalhadores urbanos e rurais, até o limite de 2 anos após extinção do contrato de trabalho.",
+    "fonte": "CLT - Art. 7º, XXIX CF/88",
+    "especialidade": "Direito Trabalhista",
+    "id": 28
+  },
+  {
+    "pergunta": "O que é descanso semanal remunerado?",
+    "resposta_referencia": "Todo empregado tem direito ao repouso semanal remunerado de 24 horas consecutivas, preferencialmente aos domingos, além de feriados civis e religiosos.",
+    "fonte": "CLT - Art. 67",
+    "especialidade": "Direito Trabalhista",
+    "id": 29
+  },
+  {
+    "pergunta": "Como funciona o vale-transporte?",
+    "resposta_referencia": "O empregador antecipará vale-transporte ao trabalhador para deslocamento residência-trabalho, podendo descontar até 6% do salário básico, arcando com o excedente.",
+    "fonte": "Lei 7.418/85",
+    "especialidade": "Direito Trabalhista",
+    "id": 30
+  },
+  {
+    "pergunta": "O que é capacidade civil?",
+    "resposta_referencia": "Capacidade civil plena é adquirida aos 18 anos, podendo ser antecipada por emancipação, casamento, exercício de emprego público, colação de grau ou estabelecimento civil.",
+    "fonte": "CC - Art. 5º",
+    "especialidade": "Direito Civil",
+    "id": 31
+  },
+  {
+    "pergunta": "O que é prescrição no direito civil?",
+    "resposta_referencia": "Prescrição é a perda da pretensão de exigir ou reclamar um direito pelo seu não exercício durante determinado prazo legal, extinguindo a possibilidade de cobrança judicial.",
+    "fonte": "CC - Art. 189",
+    "especialidade": "Direito Civil",
+    "id": 32
+  },
+  {
+    "pergunta": "O que são obrigações solidárias?",
+    "resposta_referencia": "Há solidariedade quando múltiplos credores têm direito à dívida toda ou múltiplos devedores respondem pela dívida inteira, podendo ser exigida de qualquer um deles.",
+    "fonte": "CC - Art. 264 e 275",
+    "especialidade": "Direito Civil",
+    "id": 33
+  },
+  {
+    "pergunta": "O que é responsabilidade civil?",
+    "resposta_referencia": "Quem causar dano a outrem por ação ou omissão voluntária, negligência ou imprudência fica obrigado a reparar o dano, independentemente de culpa nos casos especificados em lei.",
+    "fonte": "CC - Art. 927",
+    "especialidade": "Direito Civil",
+    "id": 34
+  },
+  {
+    "pergunta": "Como funciona o contrato de compra e venda?",
+    "resposta_referencia": "Pela compra e venda, um dos contratantes se obriga a transferir domínio de coisa e o outro a pagar-lhe preço em dinheiro, podendo ser sobre coisa existente ou futura.",
+    "fonte": "CC - Art. 481",
+    "especialidade": "Direito Civil",
+    "id": 35
+  },
+  {
+    "pergunta": "O que é dano moral?",
+    "resposta_referencia": "Dano moral é a lesão a direitos da personalidade como honra, imagem, intimidade e vida privada, gerando direito à indenização sem necessidade de prova de prejuízo patrimonial.",
+    "fonte": "CC - Art. 186 e 927",
+    "especialidade": "Direito Civil",
+    "id": 36
+  },
+  {
+    "pergunta": "O que são direitos reais?",
+    "resposta_referencia": "Direitos reais incluem propriedade, superfície, servidões, usufruto, uso, habitação, direito do promitente comprador, penhor, hipoteca e anticrese, exercidos diretamente sobre a coisa.",
+    "fonte": "CC - Art. 1.225",
+    "especialidade": "Direito Civil",
+    "id": 37
+  },
+  {
+    "pergunta": "Como se adquire a propriedade?",
+    "resposta_referencia": "A propriedade de bem móvel se adquire por usucapião, pela tradição, ou pelo registro. A de imóveis pela transcrição do título no registro competente.",
+    "fonte": "CC - Art. 1.238 a 1.259",
+    "especialidade": "Direito Civil",
+    "id": 38
+  },
+  {
+    "pergunta": "O que é usucapião?",
+    "resposta_referencia": "Usucapião é modo de aquisição da propriedade pela posse prolongada, com requisitos de tempo e outras condições que variam conforme modalidade (ordinária, extraordinária, especial).",
+    "fonte": "CC - Art. 1.238 a 1.244",
+    "especialidade": "Direito Civil",
+    "id": 39
+  },
+  {
+    "pergunta": "Como funciona a sucessão hereditária?",
+    "resposta_referencia": "A sucessão se dá por lei ou testamento. Herdeiros necessários recebem legítima de 50% da herança. Na falta de herdeiros, bens vão ao município ou Distrito Federal.",
+    "fonte": "CC - Art. 1.784 a 1.856",
+    "especialidade": "Direito Civil",
+    "id": 40
+  },
+  {
+    "pergunta": "Quais são os direitos fundamentais da Constituição?",
+    "resposta_referencia": "São direitos fundamentais: vida, liberdade, igualdade, segurança, propriedade, educação, saúde, trabalho, moradia, lazer, segurança, previdência social, proteção à maternidade e à infância.",
+    "fonte": "CF/88 - Art. 5º e 6º",
+    "especialidade": "Direito Constitucional",
+    "id": 41
+  },
+  {
+    "pergunta": "O que é devido processo legal?",
+    "resposta_referencia": "Ninguém será privado da liberdade ou de seus bens sem o devido processo legal, garantindo-se aos litigantes e acusados o contraditório e ampla defesa com meios e recursos inerentes.",
+    "fonte": "CF/88 - Art. 5º, LIV e LV",
+    "especialidade": "Direito Constitucional",
+    "id": 42
+  },
+  {
+    "pergunta": "O que diz a Constituição sobre igualdade?",
+    "resposta_referencia": "Todos são iguais perante a lei, sem distinção de qualquer natureza. Homens e mulheres são iguais em direitos e obrigações. É proibida discriminação de salários e critérios de admissão.",
+    "fonte": "CF/88 - Art. 5º, caput e I",
+    "especialidade": "Direito Constitucional",
+    "id": 43
+  },
+  {
+    "pergunta": "Quais são as garantias do preso?",
+    "resposta_referencia": "O preso tem direito a identificação dos responsáveis por sua prisão, assistência da família e advogado, informação de direitos, comunicação da prisão, integridade física e moral, e presunção de inocência.",
+    "fonte": "CF/88 - Art. 5º, LXII a LXVII",
+    "especialidade": "Direito Constitucional",
+    "id": 44
+  },
+  {
+    "pergunta": "O que é habeas corpus?",
+    "resposta_referencia": "Habeas corpus é remédio constitucional concedido quando alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção por ilegalidade ou abuso de poder.",
+    "fonte": "CF/88 - Art. 5º, LXVIII",
+    "especialidade": "Direito Constitucional",
+    "id": 45
+  },
+  {
+    "pergunta": "Como funciona o mandado de segurança?",
+    "resposta_referencia": "Mandado de segurança protege direito líquido e certo não amparado por habeas corpus, quando responsável pela ilegalidade ou abuso for autoridade pública ou agente de pessoa jurídica no exercício de atribuições.",
+    "fonte": "CF/88 - Art. 5º, LXIX",
+    "especialidade": "Direito Constitucional",
+    "id": 46
+  },
+  {
+    "pergunta": "O que é direito de propriedade?",
+    "resposta_referencia": "É garantido o direito de propriedade, que atenderá sua função social. A pequena propriedade rural trabalhada pela família não será objeto de penhora. É assegurado direito à herança.",
+    "fonte": "CF/88 - Art. 5º, XXII a XXX",
+    "especialidade": "Direito Constitucional",
+    "id": 47
+  },
+  {
+    "pergunta": "Como funciona o direito de petição?",
+    "resposta_referencia": "São gratuitos para todos, independentemente de taxa, o direito de petição aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso de poder, e obtenção de certidões para defesa de direitos.",
+    "fonte": "CF/88 - Art. 5º, XXXIV",
+    "especialidade": "Direito Constitucional",
+    "id": 48
+  },
+  {
+    "pergunta": "O que diz sobre liberdade de expressão?",
+    "resposta_referencia": "É livre a manifestação do pensamento, sendo vedado o anonimato. É assegurado direito de resposta. São invioláveis intimidade, vida privada, honra e imagem, assegurada indenização por danos.",
+    "fonte": "CF/88 - Art. 5º, IV, V e X",
+    "especialidade": "Direito Constitucional",
+    "id": 49
+  },
+  {
+    "pergunta": "Como funciona a liberdade religiosa?",
+    "resposta_referencia": "É inviolável a liberdade de consciência e crença, sendo assegurado o livre exercício de cultos religiosos e garantida proteção aos locais de culto. Ninguém será privado de direitos por motivo religioso.",
+    "fonte": "CF/88 - Art. 5º, VI a VIII",
+    "especialidade": "Direito Constitucional",
+    "id": 50
+  }
+]

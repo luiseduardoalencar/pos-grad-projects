@@ -1,0 +1,30 @@
+
+RELATÓRIO DE ANÁLISE EXPLORATÓRIA
+Data: 2025-10-05 23:08:24
+
+SUMÁRIO EXECUTIVO:
+- Total de documentos: 4,048
+- Leis processadas: 3
+- Tamanho médio: 541 caracteres
+- Palavras médias: 67
+
+DISTRIBUIÇÃO POR LEI:
+lei
+CC     2076
+CLT    1847
+CDC     125
+
+ESTATÍSTICAS DE TAMANHO:
+count     4048.000000
+mean       540.521245
+std        939.152671
+min         53.000000
+25%        181.000000
+50%        292.000000
+75%        537.000000
+max      25786.000000
+
+QUALIDADE DOS DADOS:
+- Valores nulos: 0
+- Duplicados: 14
+- Artigos muito curtos: 191

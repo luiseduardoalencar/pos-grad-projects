@@ -1,0 +1,7 @@
+{
+  "modelo_embedding": "rufimelo/Legal-BERTimbau-base",
+  "total_documentos": 4048,
+  "dimensao_embeddings": 768,
+  "database": "ChromaDB",
+  "busca": "Híbrida (Semântica + BM25)"
+}
