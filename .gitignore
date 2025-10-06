@@ -1,7 +1,21 @@
+# ============================================
+# PROJETOS ESPECÍFICOS
+# ============================================
+
+# Chest X-Ray
 chest_xray/
-.keras
 chest-xray-pneumonia/
-# Modelos treinados
+
+# NLP - RAG Final Project
+natural_language_processing/rag/final_project/processed_data/embeddings.npy
+natural_language_processing/rag/final_project/processed_data/classificador_setfit/
+natural_language_processing/rag/final_project/processed_data/*.png
+natural_language_processing/rag/final_project/data/*.html
+natural_language_processing/rag/final_project/data/*.htm
+
+# ============================================
+# MODELOS E PESOS (GERAL)
+# ============================================
 *.keras
 *.h5
 *.safetensors
@@ -9,31 +23,28 @@ chest-xray-pneumonia/
 *.pth
 *.ckpt
 *.bin
+.keras
+
 
 # Checkpoints
 checkpoint-*/
 **/checkpoint-*/
 
-# Dados grandes
+# ============================================
+# DADOS GRANDES (GERAL)
+# ============================================
 *.csv
 data/data.csv
 
-# Outros arquivos grandes
-*.png
-
-# Arquivos grandes gerados automaticamente
-processed_data/embeddings.npy
-processed_data/classificador_setfit/
-processed_data/*.png
-
-# Dados brutos (HTMLs grandes)
-data/*.html
-
-# Checkpoints do Jupyter
-processed_data/.ipynb_checkpoints/
+# ============================================
+# JUPYTER
+# ============================================
 **/.ipynb_checkpoints/
+.ipynb_checkpoints
 
-# Arquivos Python
+# ============================================
+# PYTHON
+# ============================================
 __pycache__/
 *.py[cod]
 *$py.class
@@ -47,17 +58,22 @@ ENV/
 env.bak/
 venv.bak/
 
+# ============================================
 # IDEs
+# ============================================
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# OS
+# ============================================
+# SISTEMA OPERACIONAL
+# ============================================
 .DS_Store
 Thumbs.db
 
-# Outros
+# ============================================
+# OUTROS
+# ============================================
 *.log
-.ipynb_checkpoints
