@@ -1,0 +1,231 @@
+
+========================================================================
+Lote de 4 execuções — passo a passo de cada missão; tabela resumo ao final.
+========================================================================
+
+########################################################################
+### Run 1/4  |  semente fixada para reprodução: 1560942283
+########################################################################
+
+=== Simulação: centro de distribuição em grade ===
+
+Cenário: SIM_SEED=1560942283 | pacotes iniciais (lin,col): [(1, 1), (1, 4), (3, 4)]
+(Para repetir este cenário: run_simulation(sim_seed=1560942283) ou os.environ["SIM_SEED"]="1560942283".)
+
+Prompt de sistema do coordenador LLM (trecho):
+ Você é o agente coordenador de um robô em um armazém em grade.
+Responda APENAS com um único objeto JSON válido, sem markdown nem texto extra.
+Esquema:
+{"purpose": "pickup" | "deliver", "goal": [linha, coluna] }
+- Se purpose for "pickup", goal deve ser a célula [linha,coluna] de um pacote listado na percepção.
+- Se purpose for "deliver", goal deve ser exatamente a célula da zona de entrega dada na  ...
+
+--- Decisão de alto nível (passo 0) -> {'purpose': 'pickup', 'goal': [1, 1]}
+  [1] moveu baixo -> (1, 0)
+  [2] moveu direita -> (1, 1)
+  => coletou pacote em (1, 1)
+--- Decisão de alto nível (passo 2) -> {'purpose': 'deliver', 'goal': [5, 5]}
+  [3] moveu baixo -> (2, 1)
+  [4] moveu baixo -> (3, 1)
+  [5] moveu baixo -> (4, 1)
+  [6] moveu baixo -> (5, 1)
+  [7] moveu direita -> (5, 2)
+  [8] moveu direita -> (5, 3)
+  [9] moveu direita -> (5, 4)
+  [10] moveu direita -> (5, 5)
+  => entregou na zona de entrega
+--- Decisão de alto nível (passo 10) -> {'purpose': 'pickup', 'goal': [3, 4]}
+  [11] moveu cima -> (4, 5)
+  [12] moveu cima -> (3, 5)
+  [13] moveu esquerda -> (3, 4)
+  => coletou pacote em (3, 4)
+--- Decisão de alto nível (passo 13) -> {'purpose': 'deliver', 'goal': [5, 5]}
+  [14] moveu direita -> (3, 5)
+  [15] moveu baixo -> (4, 5)
+  [16] moveu baixo -> (5, 5)
+  => entregou na zona de entrega
+--- Decisão de alto nível (passo 16) -> {'purpose': 'pickup', 'goal': [1, 4]}
+  [17] moveu cima -> (4, 5)
+  [18] moveu cima -> (3, 5)
+  [19] moveu cima -> (2, 5)
+  [20] moveu cima -> (1, 5)
+  [21] moveu esquerda -> (1, 4)
+  => coletou pacote em (1, 4)
+--- Decisão de alto nível (passo 21) -> {'purpose': 'deliver', 'goal': [5, 5]}
+  [22] moveu baixo -> (2, 4)
+  [23] moveu baixo -> (3, 4)
+  [24] moveu direita -> (3, 5)
+  [25] moveu baixo -> (4, 5)
+  [26] moveu baixo -> (5, 5)
+  => entregou na zona de entrega
+
+--- Fim ---
+Missão completa: True
+Passos de simulação: 26
+Estado final: {'robot': [5, 5], 'carrying': False, 'packages': [], 'delivery': [5, 5], 'obstacles': [[2, 2], [2, 3], [4, 4]], 'size': 6}
+
+########################################################################
+### Run 2/4  |  semente fixada para reprodução: 1208367943
+########################################################################
+
+=== Simulação: centro de distribuição em grade ===
+
+Cenário: SIM_SEED=1208367943 | pacotes iniciais (lin,col): [(2, 0), (2, 1), (5, 0)]
+(Para repetir este cenário: run_simulation(sim_seed=1208367943) ou os.environ["SIM_SEED"]="1208367943".)
+
+--- Decisão de alto nível (passo 0) -> {'purpose': 'pickup', 'goal': [2, 0]}
+  [1] moveu baixo -> (1, 0)
+  [2] moveu baixo -> (2, 0)
+  => coletou pacote em (2, 0)
+--- Decisão de alto nível (passo 2) -> {'purpose': 'deliver', 'goal': [5, 5]}
+  [3] moveu baixo -> (3, 0)
+  [4] moveu baixo -> (4, 0)
+  [5] moveu baixo -> (5, 0)
+  [6] moveu direita -> (5, 1)
+  [7] moveu direita -> (5, 2)
+  [8] moveu direita -> (5, 3)
+  [9] moveu direita -> (5, 4)
+  [10] moveu direita -> (5, 5)
+  => entregou na zona de entrega
+--- Decisão de alto nível (passo 10) -> {'purpose': 'pickup', 'goal': [5, 0]}
+  [11] moveu esquerda -> (5, 4)
+  [12] moveu esquerda -> (5, 3)
+  [13] moveu esquerda -> (5, 2)
+  [14] moveu esquerda -> (5, 1)
+  [15] moveu esquerda -> (5, 0)
+  => coletou pacote em (5, 0)
+--- Decisão de alto nível (passo 15) -> {'purpose': 'deliver', 'goal': [5, 5]}
+  [16] moveu direita -> (5, 1)
+  [17] moveu direita -> (5, 2)
+  [18] moveu direita -> (5, 3)
+  [19] moveu direita -> (5, 4)
+  [20] moveu direita -> (5, 5)
+  => entregou na zona de entrega
+--- Decisão de alto nível (passo 20) -> {'purpose': 'pickup', 'goal': [2, 1]}
+  [21] moveu cima -> (4, 5)
+  [22] moveu cima -> (3, 5)
+  [23] moveu esquerda -> (3, 4)
+  [24] moveu esquerda -> (3, 3)
+  [25] moveu esquerda -> (3, 2)
+  [26] moveu esquerda -> (3, 1)
+  [27] moveu cima -> (2, 1)
+  => coletou pacote em (2, 1)
+--- Decisão de alto nível (passo 27) -> {'purpose': 'deliver', 'goal': [5, 5]}
+  [28] moveu baixo -> (3, 1)
+  [29] moveu baixo -> (4, 1)
+  [30] moveu baixo -> (5, 1)
+  [31] moveu direita -> (5, 2)
+  [32] moveu direita -> (5, 3)
+  [33] moveu direita -> (5, 4)
+  [34] moveu direita -> (5, 5)
+  => entregou na zona de entrega
+
+--- Fim ---
+Missão completa: True
+Passos de simulação: 34
+Estado final: {'robot': [5, 5], 'carrying': False, 'packages': [], 'delivery': [5, 5], 'obstacles': [[2, 2], [2, 3], [4, 4]], 'size': 6}
+
+########################################################################
+### Run 3/4  |  semente fixada para reprodução: 1960089209
+########################################################################
+
+=== Simulação: centro de distribuição em grade ===
+
+Cenário: SIM_SEED=1960089209 | pacotes iniciais (lin,col): [(4, 0), (4, 3), (5, 4)]
+(Para repetir este cenário: run_simulation(sim_seed=1960089209) ou os.environ["SIM_SEED"]="1960089209".)
+
+--- Decisão de alto nível (passo 0) -> {'purpose': 'pickup', 'goal': [4, 0]}
+  [1] moveu baixo -> (1, 0)
+  [2] moveu baixo -> (2, 0)
+  [3] moveu baixo -> (3, 0)
+  [4] moveu baixo -> (4, 0)
+  => coletou pacote em (4, 0)
+--- Decisão de alto nível (passo 4) -> {'purpose': 'deliver', 'goal': [5, 5]}
+  [5] moveu baixo -> (5, 0)
+  [6] moveu direita -> (5, 1)
+  [7] moveu direita -> (5, 2)
+  [8] moveu direita -> (5, 3)
+  [9] moveu direita -> (5, 4)
+  [10] moveu direita -> (5, 5)
+  => entregou na zona de entrega
+--- Decisão de alto nível (passo 10) -> {'purpose': 'pickup', 'goal': [4, 3]}
+  [11] moveu esquerda -> (5, 4)
+  [12] moveu esquerda -> (5, 3)
+  [13] moveu cima -> (4, 3)
+  => coletou pacote em (4, 3)
+--- Decisão de alto nível (passo 13) -> {'purpose': 'deliver', 'goal': [5, 5]}
+  [14] moveu baixo -> (5, 3)
+  [15] moveu direita -> (5, 4)
+  [16] moveu direita -> (5, 5)
+  => entregou na zona de entrega
+--- Decisão de alto nível (passo 16) -> {'purpose': 'pickup', 'goal': [5, 4]}
+  [17] moveu esquerda -> (5, 4)
+  => coletou pacote em (5, 4)
+--- Decisão de alto nível (passo 17) -> {'purpose': 'deliver', 'goal': [5, 5]}
+  [18] moveu direita -> (5, 5)
+  => entregou na zona de entrega
+
+--- Fim ---
+Missão completa: True
+Passos de simulação: 18
+Estado final: {'robot': [5, 5], 'carrying': False, 'packages': [], 'delivery': [5, 5], 'obstacles': [[2, 2], [2, 3], [4, 4]], 'size': 6}
+
+########################################################################
+### Run 4/4  |  semente fixada para reprodução: 1543082226
+########################################################################
+
+=== Simulação: centro de distribuição em grade ===
+
+Cenário: SIM_SEED=1543082226 | pacotes iniciais (lin,col): [(2, 0), (2, 4), (5, 4)]
+(Para repetir este cenário: run_simulation(sim_seed=1543082226) ou os.environ["SIM_SEED"]="1543082226".)
+
+--- Decisão de alto nível (passo 0) -> {'purpose': 'pickup', 'goal': [2, 0]}
+  [1] moveu baixo -> (1, 0)
+  [2] moveu baixo -> (2, 0)
+  => coletou pacote em (2, 0)
+--- Decisão de alto nível (passo 2) -> {'purpose': 'deliver', 'goal': [5, 5]}
+  [3] moveu baixo -> (3, 0)
+  [4] moveu baixo -> (4, 0)
+  [5] moveu baixo -> (5, 0)
+  [6] moveu direita -> (5, 1)
+  [7] moveu direita -> (5, 2)
+  [8] moveu direita -> (5, 3)
+  [9] moveu direita -> (5, 4)
+  [10] moveu direita -> (5, 5)
+  => entregou na zona de entrega
+--- Decisão de alto nível (passo 10) -> {'purpose': 'pickup', 'goal': [5, 4]}
+  [11] moveu esquerda -> (5, 4)
+  => coletou pacote em (5, 4)
+--- Decisão de alto nível (passo 11) -> {'purpose': 'deliver', 'goal': [5, 5]}
+  [12] moveu direita -> (5, 5)
+  => entregou na zona de entrega
+--- Decisão de alto nível (passo 12) -> {'purpose': 'pickup', 'goal': [2, 4]}
+  [13] moveu cima -> (4, 5)
+  [14] moveu cima -> (3, 5)
+  [15] moveu cima -> (2, 5)
+  [16] moveu esquerda -> (2, 4)
+  => coletou pacote em (2, 4)
+--- Decisão de alto nível (passo 16) -> {'purpose': 'deliver', 'goal': [5, 5]}
+  [17] moveu baixo -> (3, 4)
+  [18] moveu direita -> (3, 5)
+  [19] moveu baixo -> (4, 5)
+  [20] moveu baixo -> (5, 5)
+  => entregou na zona de entrega
+
+--- Fim ---
+Missão completa: True
+Passos de simulação: 20
+Estado final: {'robot': [5, 5], 'carrying': False, 'packages': [], 'delivery': [5, 5], 'obstacles': [[2, 2], [2, 3], [4, 4]], 'size': 6}
+
+========================================================================
+RESUMO COMPILADO — 4 runs
+========================================================================
+  Run 1: SIM_SEED=1560942283 | passos=26 | missão_ok=True | planner_falhou=False | pacotes_iniciais=[(1, 1), (1, 4), (3, 4)]
+  Run 2: SIM_SEED=1208367943 | passos=34 | missão_ok=True | planner_falhou=False | pacotes_iniciais=[(2, 0), (2, 1), (5, 0)]
+  Run 3: SIM_SEED=1960089209 | passos=18 | missão_ok=True | planner_falhou=False | pacotes_iniciais=[(4, 0), (4, 3), (5, 4)]
+  Run 4: SIM_SEED=1543082226 | passos=20 | missão_ok=True | planner_falhou=False | pacotes_iniciais=[(2, 0), (2, 4), (5, 4)]
+
+  Missões concluídas: 4/4
+  Passos — média: 24.50 | mín: 18 | máx: 34
+  Algum planner falhou: False
+========================================================================
